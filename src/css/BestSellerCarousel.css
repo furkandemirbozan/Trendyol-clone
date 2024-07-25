@@ -1,0 +1,64 @@
+.arrow {
+    display: block;
+    background: gray;
+    border-radius: 50%;
+}
+
+.arrow:hover {
+    background: darkgray;
+}
+
+.carousel-container {
+    background-color: #FEF4EC;
+    padding: 20px;
+}
+
+.product-card {
+    max-width: 200px;
+    margin: 0 auto;
+    position: relative;
+    height: 100%;
+}
+
+.product-title {
+    font-weight: bold;
+    color: black;
+}
+
+.product-price {
+    font-weight: bold;
+    color: #FF6600;
+}
+
+.product-rating {
+    color: orange;
+}
+
+.product-badge {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-coupons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.coupon {
+    color: #FF6600;
+    background-color: #FFECEC;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.coupon-icon {
+    margin-right: 5px;
+    background-color: #FF3399;
+    border-radius: 50%;
+    padding: 2px 5px;
+}

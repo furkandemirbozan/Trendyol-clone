@@ -1,0 +1,76 @@
+.trending-buttons-container {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.trending-buttons-title {
+    margin-bottom: 20px;
+}
+
+.trending-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.trending-button {
+    border-radius: 20px;
+    text-transform: none;
+    border: 1px solid #ddd;
+    color: #000;
+    transition: all 0.3s ease;
+}
+
+.trending-button:hover {
+    border: 1px solid #ff6600;
+    color: #ff6600;
+}
+
+.trending-buttons-divider {
+    margin: 40px 0;
+}
+
+.trending-section-title {
+    margin-bottom: 20px;
+}
+
+.trending-section-text {
+    line-height: 1.6;
+    font-size: 0.875rem;
+    margin-bottom: 20px;
+}
+
+.popular-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.popular-links-column {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.popular-links-title {
+    margin-bottom: 20px;
+}
+
+.popular-links-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.popular-link {
+    flex: 1 1 30%;  /* Her bir linkin genişliği yüzde 30 olacak şekilde ayarlanıyor */
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;  /* Mouse ikonu el şeklinde olacak */
+    transition: all 0.3s ease;
+}
+
+.popular-link:hover {
+    text-decoration: underline;  /* Üzerine gelindiğinde altı çizili olacak */
+    color: #130c08;  /* Üzerine gelindiğinde renk turuncu olacak */
+}

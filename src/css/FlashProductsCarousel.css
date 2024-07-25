@@ -1,0 +1,134 @@
+.flash-products-carousel {
+    background: linear-gradient(to right, #fe9c33, #ffcc70); /* Belirtilen arka plan renkleri */
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.flash-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.flash-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.flash-products-carousel .coupon {
+    background-color: #FFE0E6;
+    color: #F27A1A;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.flash-products-carousel .coupon-icon {
+    margin-right: 5px;
+}
+
+.product-card {
+    max-width: 200px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.product-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    height: 150px; /* İçeriğin yüksekliğini sabitleyin */
+}
+
+.product-title {
+    font-weight: bold;
+    color: black;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.product-price {
+    font-weight: bold;
+    color: #FF6600;
+    margin-top: 10px;
+}
+
+.product-rating {
+    color: orange;
+    margin-top: 10px;
+}
+
+.product-badge {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.product-coupons {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-top: auto;
+}
+
+.coupon {
+    color: #FF6600;
+    background-color: #FFECEC;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.coupon-icon {
+    margin-right: 5px;
+    background-color: #FF3399;
+    border-radius: 50%;
+    padding: 2px 5px;
+}
+
+.slick-prev, .slick-next {
+    z-index: 1;
+    background: none; /* Arka planı kaldır */
+    border: none; /* Kenarlığı kaldır */
+    box-shadow: none; /* Gölgeyi kaldır */
+    width: auto; /* Genişliği otomatik yap */
+    height: auto; /* Yüksekliği otomatik yap */
+}
+
+.slick-prev:before, .slick-next:before {
+    content: ''; /* İçeriği boş bırak */
+}
+
+.arrow-icon {
+    display: block;
+    width: 24px;
+    height: 24px;
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.prev-arrow {
+    left: -40px;
+}
+
+.next-arrow {
+    right: -40px;
+}

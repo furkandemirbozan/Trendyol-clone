@@ -1,0 +1,13 @@
+.image-card {
+    transition: transform 0.3s ease-in-out;
+    margin: 10px;
+}
+
+.image-card:hover {
+    transform: scale(1.05);
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}

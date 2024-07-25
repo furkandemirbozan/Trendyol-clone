@@ -1,0 +1,108 @@
+.arrow {
+    display: block;
+    background: gray;
+    border-radius: 50%;
+}
+
+.arrow:hover {
+    background: darkgray;
+}
+
+.carousel-container {
+    background-color: #FEF4EC;
+    padding: 20px;
+}
+
+.product-card {
+    max-width: 200px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.product-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    height: 150px; /* İçeriğin yüksekliğini sabitleyin */
+}
+
+.product-title {
+    font-weight: bold;
+    color: black;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.product-price {
+    font-weight: bold;
+    color: #FF6600;
+    margin-top: 10px;
+}
+
+.product-rating {
+    color: orange;
+    margin-top: 10px;
+}
+
+.product-badge {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.product-coupons {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-top: auto;
+}
+
+.coupon {
+    color: #FF6600;
+    background-color: #FFECEC;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.coupon-icon {
+    margin-right: 5px;
+    background-color: #FF3399;
+    border-radius: 50%;
+    padding: 2px 5px;
+}
+
+.slick-prev, .slick-next {
+    z-index: 1;
+}
+
+.slick-prev:before, .slick-next:before {
+    content: '';
+}
+
+.slick-prev {
+    left: -25px; /* Okun konumunu ayarlayın */
+}
+
+.slick-next {
+    right: -25px; /* Okun konumunu ayarlayın */
+}
+
+.arrow-icon {
+    display: block;
+    background: gray;
+    border-radius: 50%;
+    padding: 10px;
+    z-index: 2;
+}

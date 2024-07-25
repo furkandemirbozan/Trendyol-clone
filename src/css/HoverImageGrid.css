@@ -1,0 +1,14 @@
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-grid-img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.image-container:hover .image-grid-img {
+    transform: scale(1.05);
+}

@@ -1,0 +1,93 @@
+.footer-container {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.footer-column {
+    flex: 1;
+    padding: 10px;
+    min-width: 200px;
+    color: aliceblue;
+}
+
+.footer-title {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.footer-link {
+    display: block;
+    color: #fff !important; /* Linklerin rengini beyaz yapar */
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.payment-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.payment-icons img {
+    width: 50px;
+    height: auto;
+}
+
+.app-button img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icon {
+    color: #fff;
+    font-size: 24px;
+}
+
+.country-change-button {
+    background-color: #444;
+    color: #fff;
+    margin: 10px 0;
+}
+
+.footer-bottom {
+    border-top: 1px solid #333;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.footer-bottom-link {
+    color: #fff !important; /* Linklerin rengini beyaz yapar */
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-bottom-link:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom-text {
+    flex: 1 100%;
+    text-align: center;
+    margin-top: 10px;
+}
